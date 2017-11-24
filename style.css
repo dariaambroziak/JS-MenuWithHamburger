@@ -1,0 +1,21 @@
+/*
+light blue: #85cadd
+blue: #29abe2
+yellow: #fbbb21
+red: #c1272d
+green: #00a99d
+violet: #5854ae
+grey: #4a4a49
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+}
+
+
+body {
+    background-color: #85cadd;
+}
