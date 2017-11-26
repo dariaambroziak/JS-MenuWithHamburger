@@ -1,0 +1,69 @@
+body {
+  font-family: 'Spectral SC', serif;
+  background: grey;
+  margin: 0; }
+
+.slider {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center; }
+  .slider .slide_One {
+    height: 100%;
+    width: 100%;
+    background-image: url("../photos/top-slide-01.jpg");
+    background-size: cover;
+    background-position: center; }
+    .slider .slide_One h1 {
+      margin: 0; }
+  .slider .slide_Two {
+    height: 100%;
+    width: 100%;
+    background-image: url("../photos/top-slide-02.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute; }
+    .slider .slide_Two h1 {
+      margin: 0;
+      position: relative;
+      top: 35%;
+      font-size: 50px; }
+  .slider .slide_Three {
+    height: 100%;
+    width: 100%;
+    background-image: url("../photos/top-slide-03.jpg");
+    background-size: cover;
+    background-position: center; }
+    .slider .slide_Three h1 {
+      margin: 0;
+      font-size: 40px; }
+  .slider .nextArrow {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    cursor: pointer;
+    transition: all ease-in .2s;
+    color: #fff;
+    background-image: url("../photos/arrow_right.png");
+    background-size: contain;
+    width: 120px;
+    height: 100px;
+    z-index: 1; }
+    .slider .nextArrow:hover {
+      opacity: 0.5; }
+  .slider .backArrow {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    cursor: pointer;
+    transition: all ease-in .2s;
+    color: #fff;
+    background-image: url("../photos/arrow_left.png");
+    background-size: contain;
+    width: 120px;
+    height: 100px;
+    z-index: 1; }
+    .slider .backArrow:hover {
+      opacity: 0.5; }
